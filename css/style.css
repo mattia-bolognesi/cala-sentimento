@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+html, body {
+    font-family: 'Cormorant Garamond', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    height: 100%; /* Full height */
+    overflow: hidden; /* Disable scrolling */
+}
+
+/* Rest of your existing CSS */
+.hero-section {
+    background: url('../images/image_5.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.transparent-footer {
+    background-color: rgba(255, 255, 255, 0); /* White with 50% opacity */
+    color: white; /* Text color */
+    padding: 30px; /* Padding for spacing */
+    text-align: center;
+    justify-content: center; /* Center content horizontally in the flex container */
+    align-items: center; /* Center content vertically in the flex container */
+    height: 30px; /* Set a specific height for the footer */
+    position: fixed; /* Make the footer fixed at the bottom */
+    bottom: 0; /* Position at the bottom */
+    width: 100%; /* Full width */
+    /* Other styling as needed */
+}
+
+.contact-icons {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+    color: #000; /* Change color as needed */
+    font-size: 24px; /* Adjust size as needed */
+}
+
+.contact-icons a:hover {
+    color: #555; /* Change hover color as needed */
+}
+
+.white-icon {
+    color: white;
+}
